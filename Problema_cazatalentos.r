@@ -161,8 +161,8 @@ mejor_se <- sqrt(jugadora_a * (1 - jugadora_a) / 300)
 
 # ---------------------------------------------------
 # Cazatalentos 8 : Con 1085 tiros elijo 1 jugadora con P:0,80
-jugadora_a <- (85 + 790) / 1085
-mejor_se <- sqrt(jugadora_a * (1 - jugadora_a) / 1085)
+jugadora_a <- (85 + 790) / 1100
+mejor_se <- sqrt(jugadora_a * (1 - jugadora_a) / 1100)
 
 
 # ---------------------------------------------------
@@ -171,10 +171,8 @@ mejor_se <- sqrt(jugadora_a * (1 - jugadora_a) / 1085)
 jugadora_a <- (68 + 74 + 78 + 70 + 68 + 63 + 80 + 68 + 67 + 65) / 1000
 mejor_se <- sqrt(jugadora_a * (1 - jugadora_a) / 1000)
 
+# ---------------------------------------------------
 
-
-
-# Cómo las ordenaria??
 # Tengo dos fuentes de incertidumbre: 
 #    1. el problema de las multiples comparaciones
 #    2. la incertidumbre sobre la verdadera proporción de enceste.
